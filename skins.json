@@ -1,0 +1,132 @@
+{
+  "format_version": "1.10.0",
+  "serialize_name": "mob",
+  "localization_name": "mob",
+  "skins": [
+    {
+      "localization_name": "bee",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "bee.png",
+      "cape": "cape.png",
+      "animations": {
+        "attack.rotations": "animation.bee.sting",
+        "look_at_target": "animation.witch.general",
+        "bob": "animation.arrow.move",
+        "move.arms": "animation.witch.general",
+        "humanoid_base_pose": "animation.player.base_pose.upside_down",
+        "sneaking": "animation.bee.fly.bobbing"
+      },
+      "type": "free",
+      "enable_attachables": false
+    },
+    {
+      "localization_name": "beeangry",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "bee_angry.png",
+      "cape": "cape.png",
+      "animations": {
+        "attack.rotations": "animation.bee.sting",
+        "look_at_target": "animation.witch.general",
+        "bob": "animation.arrow.move",
+        "move.arms": "animation.witch.general",
+        "humanoid_base_pose": "animation.player.base_pose.upside_down",
+        "sneaking": "animation.bee.fly.bobbing"
+      },
+      "type": "free",
+      "enable_attachables": false
+    },
+    {
+      "localization_name": "zombie",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "zombie.png",
+      "cape": "Cape.png",
+      "animations": {
+        "attack.rotations": "animation.zombie.attack_bare_hand",
+        "attack.positions": "animation.zombie.attack_bare_hand",
+        "move.arms": "animation.player.move.arms.zombie",
+        "sneaking": "animation.witch.general"
+      },
+      "type": "free",
+      "enable_attachables": true
+    },
+    {
+      "localization_name": "husk",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "husk.png",
+      "cape": "Cape.png",
+      "animations": {
+        "attack.rotations": "animation.zombie.attack_bare_hand",
+        "attack.positions": "animation.zombie.attack_bare_hand",
+        "move.arms": "animation.player.move.arms.zombie",
+        "sneaking": "animation.witch.general"
+      },
+      "type": "free",
+      "enable_attachables": true
+    },
+    {
+      "localization_name": "drowned",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "drowned.png",
+      "cape": "Cape.png",
+      "animations": {
+        "attack.rotations": "animation.zombie.attack_bare_hand",
+        "attack.positions": "animation.zombie.attack_bare_hand",
+        "move.arms": "animation.player.move.arms.zombie",
+        "sneaking": "animation.witch.general"
+      },
+      "type": "free",
+      "enable_attachables": true
+    },
+    {
+      "localization_name": "striderwarm",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "strider_warm.png",
+      "cape": "Cape.png",
+      "animations": {
+        "humanoid_base_pose": "animation.humanoid.big_head",
+        "look_at_target": "animation.goat.look_at_target",
+        "sneaking": "animation.parrot.sitting",
+        "move.arms": "animation.fireworks_rocket.move",
+        "bob": "animation.parrot.sitting",
+        "holding": "animation.evoker.general",
+        "attack.rotations": "animation.fireworks_rocket.move",
+        "attack.positions": "animation.fireworks_rocket.move"
+      },
+      "type": "free",
+      "enable_attachables": false
+    },
+    {
+      "localization_name": "stridercold",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "strider_cold.png",
+      "cape": "Cape.png",
+      "animations": {
+        "humanoid_base_pose": "animation.humanoid.big_head",
+        "look_at_target": "animation.goat.look_at_target",
+        "sneaking": "animation.parrot.sitting",
+        "move.arms": "animation.fireworks_rocket.move",
+        "bob": "animation.parrot.sitting",
+        "holding": "animation.evoker.general",
+        "attack.rotations": "animation.fireworks_rocket.move",
+        "attack.positions": "animation.fireworks_rocket.move"
+      },
+      "type": "free",
+      "enable_attachables": false
+    },
+{
+      "localization_name": "ghastling",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "ghastling.png",
+      "cape": "Cape.png",
+      "animations": {
+        "humanoid_base_pose": "animation.humanoid.big_head",
+        "look_at_target": "animation.witch.general",
+        "sneaking": "animation.parrot.sitting",
+        "holding": "animation.evoker.general"
+      },
+      "type": "free",
+      "enable_attachables": false
+    }
+
+  ]
+}

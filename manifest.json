@@ -1,0 +1,24 @@
+{
+  "header":{
+      "version":[
+          2,
+          0,
+          0
+      ],
+      "description":"Made By Merb!",
+      "name":"Mob Skins",
+      "uuid":"5adcd584-2848-4966-abc7-c3e9d774c2df"
+  },
+  "modules":[
+      {
+          "version":[
+              2,
+              0,
+              0
+          ],
+          "type":"skin_pack",
+          "uuid":"7aca49c1-8035-4aaa-aff9-8c8f8263204a"
+      }
+  ],
+  "format_version":1
+}
